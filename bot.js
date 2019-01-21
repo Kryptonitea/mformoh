@@ -3,7 +3,7 @@ const client = new Discord.Client();
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-   client.user.setGame(`♥Music♥ | -p `,'https://www.twitch.tv/ℕ o v a Codes♥');
+   client.user.setGame(`♥Music♥ | #p `,'https://www.twitch.tv/ℕ o v a Codes♥');
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -37,7 +37,7 @@ const queue = new Map();
  
  
  
-var prefix = "-" 
+var prefix = "#" 
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
    
